@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #EFCFAD;    
+    --lightbg-color: #405d65;
+    --background-color: #222222;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+@media (max-width: 320px) {
+
+}
