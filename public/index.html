@@ -1,37 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Card Game Booster Packs | Buy now</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestCard Game Booster Packs | Buy now</title>
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Buy the best card game booster packs online. Get exclusive deals and offers on your favorite card games.">
-    <meta name="keywords" content="card game, booster packs, buy card game, best card game, card game deals">
-    <meta name="author" content="Ivanshummi@gmail.com">
-    <meta property="og:title" content="Best Card game Booster Packs | Buy now">
-    <meta property="og:description" content="Buy the best card game booster packs online. Get exclusive deals and offers on your favorite card games.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.example.com">
-    <meta property="og:image" content="https://www.example.com/images/giftbox.jpg">
-    
+    <meta
+      name="description"
+      content="Buy the best card game booster packs online. Get exclusive deals and offers on your favorite card games."
+    />
+    <meta
+      name="keywords"
+      content="card game, booster packs, buy card game, best card game, card game deals"
+    />
+    <meta name="author" content="Ivanshummi@gmail.com" />
+    <meta property="og:title" content="BestCard Game Booster Packs | Buy now" />
+    <meta
+      property="og:description"
+      content="Buy the best card game booster packs online. Get exclusive deals and offers on your favorite card games."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://ivanshum.github.io/testcaseboosters/"
+    />
+    <meta
+      property="og:image"
+      content="https://ivanshum.github.io/testcaseboosters/images/giftbox.jpg"
+    />
     <!-- Favicon Meta Tags -->
-    <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png">
-    <link rel="apple-touch-icon" href="images/favicon.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#222222">
-</head>
-<body>
+    <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#222222" />
+  </head>
+  <body>
     <header>
-        <h1>Best game - Best packs</h1>
+      <div class="logo" aria-label="Bestcard logo">Bestcard</div>
+      <nav id="mainnav" aria-label="Main navigation">
+        <a href="#wwd">What we do</a>
+        <a href="#advantages">Our advantages</a>
+        <a href="#order">Order now</a>
+      </nav>
     </header>
     <main>
-        <p>This is a text.</p>
+      <section id="wwd" aria-labelledby="wwd-heading">
+        <div>
+          <h1 id="wwd-heading">BESTCARD - your portal to the game</h1>
+          <p>Buy your game cards online here.</p>
+          <ul>
+            <li><span class="bignumber">100+</span> boosters to collect!</li>
+            <li>Ships in <span class="bignumber">24</span> hours</li>
+            <li>
+              <span class="bignumber">1</span> rare card per premium pack!
+            </li>
+          </ul>
+          <a href="#order" class="button">order</a>
+        </div>
+        <div>
+          <img src="images/giftbox.webp" alt="Gift box" />
+        </div>
+      </section>
+      <section id="advantages" aria-label="Our Advantages">
+        <div><img src="images/boosters1.webp" alt="Booster packs" /></div>
+        <div>
+          <ul>
+            <li>
+              Discover a wide selection of trading card game booster packs
+              filled with rare, powerful, and collectible cards.
+            </li>
+            <li>
+              We ensure quick processing and reliable delivery, so your booster
+              packs arrive safely and on time—ready to open and enjoy.
+            </li>
+            <li>
+              Get the best prices, special discounts, and exclusive bundles you
+              won’t find anywhere else. The more you collect, the more you save!
+            </li>
+            <li>
+              Join a community of passionate players and collectors who trust us
+              for high-quality products.
+            </li>
+          </ul>
+          <a href="#order" class="button">order</a>
+        </div>
+        <div><img src="images/boosters2.webp" alt="Booster packs" /></div>
+      </section>
+      <section id="order" aria-labelledby="order-heading">
+        <div>
+          <h2 id="order-heading">Order Your Booster Packs Now!</h2>
+          <form action="submit.php" method="post">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <div>
+              <input type="checkbox" id="privacy" name="privacy" value="yes" />
+              <label for="privacy"
+                >I accept <a href="#policy">Privacy policy</a></label
+              >
+            </div>
+            <button type="submit">submit form</button>
+          </form>
+        </div>
+        <div>
+          <img src="images/cardportal.webp" alt="Card portal" />
+        </div>
+        <img src="images/niceman.webp" alt="Nice man" />
+      </section>
     </main>
     <footer>
-        <p>&copy; 2025 Ivanshummi@gmail.com</p>
+      <div>
+        <nav id="footernav" aria-label="Footer navigation">
+          <a href="#wwd">What we do</a>
+          <a href="#advantages">Our advantages</a>
+          <a href="#order">Order now</a>
+        </nav>
+      </div>
+      <div>
+        <div class="logo" aria-label="Bestcard logo">Bestcard</div>
+        <div class="social links">
+          <a href="https://instagram.com" aria-label="Instagram">
+            <img src="images/icons/inst1.svg" alt="Instagram" />
+          </a>
+          <a href="https://tiktok.com" aria-label="TikTok">
+            <img src="images/icons/tiktok2.svg" alt="TikTok" />
+          </a>
+          <a href="https://linkedin.com" aria-label="LinkedIn">
+            <img src="images/icons/in3.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://facebook.com" aria-label="Facebook">
+            <img src="images/icons/fb4.svg" alt="Facebook" />
+          </a>
+          <a href="https://telegram.org" aria-label="Telegram">
+            <img src="images/icons/tg5.svg" alt="Telegram" />
+          </a>
+          <a href="https://youtube.com" aria-label="YouTube">
+            <img src="images/icons/ytube6.svg" alt="YouTube" />
+          </a>
+        </div>
+        <div><a href="#order" class="button">order</a></div>
+        <div>&copy; 2025, Ivanshummi@gmail.com</div>
+        <div><a href="#policy">Privacy policy</a></div>
+        <div><a href="#terms">Terms of use</a></div>
+      </div>
     </footer>
     <script src="js/scripts.js"></script>
-</body>
+  </body>
 </html>
